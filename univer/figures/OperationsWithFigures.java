@@ -17,7 +17,7 @@ public class OperationsWithFigures {
 	ArrayList<IFigure> arrayPoints = new ArrayList<>();
 	ArrayList<IFigure> arrayLines = new ArrayList<>();
 	ArrayList<IFigure> arrayTriangles = new ArrayList<>();
-	public String HowManyFiguresInArray(IFigure[] figures) {  //метод считает, сколько в переданном массиве фигур разного типа, и создает однотипные листы
+	public String HowManyFiguresInArray(IFigure[] figures) {  //метод считает, сколько в переданном массиве фигур разного типа, и создает однотипные коллекции
 		for (int i = 0; i < figures.length; i++) {
 			if (figures[i] instanceof Point) {
 				numbPoints++;

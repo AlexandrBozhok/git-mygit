@@ -44,9 +44,9 @@ public class Program {
 //		System.out.println(tr1.getPerimeter());
 //		System.out.println(tr1.getAreaTriangle());
 		System.out.println(tr5.getAreaTriangle());
-		System.out.println(tr5.getSideLength(tr5.getSideAB()));
-		System.out.println(tr5.getSideLength(tr5.getSideBC()));
-		System.out.println(tr5.getSideLength(tr5.getSideAC()));
+		System.out.println(tr5.getSideABLength());
+		System.out.println(tr5.getSideBCLength());
+		System.out.println(tr5.getSideACLength());
 		
 	}
 

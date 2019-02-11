@@ -31,6 +31,16 @@ public class Line implements IFigure{
 	public void setEnd(Point end) {
 		this.end = end;
 	}
+	
+	public double getLength() {
+		Point p1 = this.start;
+		Point p2 = this.end;
+		int AX = p1.getX();
+		int AY = p1.getY();
+		int BX = p2.getX();
+		int BY = p2.getY();
+		return Math.sqrt((Math.pow((BX-AX), 2))+(Math.pow((BY-AY), 2)));
+	}
 
 	@Override
 	public String toString() {
