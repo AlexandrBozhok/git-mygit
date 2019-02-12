@@ -36,17 +36,15 @@ public class Program {
 		Point p30 = new ColorPoint(-10, 0, "RED");
 		Triangle tr5 = new ColorTriangle(p10, p20, p30, "YELLOW");
 		
-//		System.out.println(owf.HowManyFiguresInArray(arrFigures));
-//		System.out.println("Точек в списке: " + owf.arrayPoints.size());
-//		System.out.println("Линий в списке: " + owf.arrayLines.size());
-//		System.out.println("Треугольников в списке: " + owf.arrayTriangles.size());
-//		System.out.println(tr1.getSideLength(tr1.getSideAC()));
-//		System.out.println(tr1.getPerimeter());
-//		System.out.println(tr1.getAreaTriangle());
-		System.out.println(tr5.getAreaTriangle());
-		System.out.println(tr5.getSideABLength());
-		System.out.println(tr5.getSideBCLength());
-		System.out.println(tr5.getSideACLength());
+		System.out.println(owf.HowManyFiguresInArray(arrFigures));
+		System.out.println("Точек в списке: " + owf.arrayPoints.size());
+		System.out.println("Линий в списке: " + owf.arrayLines.size());
+		System.out.println("Треугольников в списке: " + owf.arrayTriangles.size());
+		System.out.println("Длина стороны АВ: " + tr5.getSideABLength());
+		System.out.println("Длина стороны ВС: " + tr5.getSideBCLength());
+		System.out.println("Длина стороны АС: " + tr5.getSideACLength());
+		System.out.println("Периметр треугольника: " + tr1.getPerimeter());
+		System.out.println("Площадь треугольника: " + tr5.getAreaTriangle());
 		
 	}
 
