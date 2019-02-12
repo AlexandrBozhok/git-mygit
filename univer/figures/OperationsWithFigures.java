@@ -11,9 +11,6 @@ public class OperationsWithFigures {
 	int numbPoints = 0;
 	int numbLines = 0;
 	int numbTriangles = 0;
-	int indexArrayPoints = 0;
-	int indexArrayLines = 0;
-	int indexArrayTriangles = 0;
 	ArrayList<IFigure> arrayPoints = new ArrayList<>();
 	ArrayList<IFigure> arrayLines = new ArrayList<>();
 	ArrayList<IFigure> arrayTriangles = new ArrayList<>();
